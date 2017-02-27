@@ -1,0 +1,192 @@
+/**********************************
+General Styling
+***********************************/
+
+body {
+font-family: sans-serif;
+}
+
+hr {
+  width: 1px;
+  height: 75%;
+  float: left;
+}
+
+/***********************************
+Header
+***********************************/
+
+#MyLogo {
+  display: inline-block;
+  text-align: center;
+  font-size: 10px;
+  float: left;
+  width 100%;
+  margin: 35px;
+  padding: 25px 20px 5px 5px;
+  color: #000;
+  background-color: grey;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+/*..Navigation..*/
+header {
+  float: left;
+  width: 100%;
+  color: #fff;
+  background: #000;
+}
+
+nav ul {
+  list-style: none;
+  width: 75%;
+  margin: 20px;
+  padding: 0;
+}
+
+nav ul li a {
+  display: inline-block;
+  float: left;
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+  text-align: center;
+  padding: 30px 15px 30px 20px;
+}
+
+
+/*Welcome Message*/
+.welcomemessage {
+  padding-left: 20px;
+}
+
+.signature {
+    font-style: italic;
+}
+
+/*..homepage gallery thumbnail images*/
+#thumbnail-container {
+float: left;
+background-color: #fff;
+width: 100%;
+height: 400px;
+padding: 0 0 100px 0;
+}
+
+.thumbnails {
+float: left;
+list-style: none;
+text-decoration: none;
+width: 100%;
+}
+
+.thumbnails li {
+float: left;
+width: 30%;
+padding: 4px 4px 4px 4px;
+background-color: #cbced3;
+text-align: center;
+margin: 5px 5px 5px 5px;
+}
+
+.thumbnails li a img {
+width: 100%;
+}
+
+/***************************
+Portfolio Page
+****************************/
+
+.portfolio {
+  background-color: #fff;
+}
+
+.portfolio img {
+  padding: 10px 10px 10px 10px;
+  background-color: #cbced3;
+
+}
+
+#gallery-container img {
+  display: inline-block;
+  float: left;
+  width: 25%;
+  margin: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: grey;
+}
+
+
+/***************************
+Footer
+****************************/
+
+footer {
+  float: left;
+  padding: 20px 5px 5px 10px;
+  width: 100%;
+  background-color: #eae6e1;
+}
+
+footer a img {
+width: 05%;
+}
+
+
+@media all and (min-width: 320px){
+  header {
+    margin-bottom: 30px;
+    }
+    .MyLogo {
+      display: inline-block;
+      float: left;
+      width: 100%;
+    }
+    #gallery-container img {
+    float: left;
+    width: 100%;
+    }
+#MyLogo {
+    display: inline-block;
+    float: left;
+  }
+  nav ul li a {
+    margin: 10px 10px 10px 10px;
+  }
+}
+
+@media all and (min-width: 550px) {
+  header {
+    width: 100%;
+  }
+  nav ul {
+    float: left;
+    width: 80%;
+    margin: 0;
+  }
+  #gallery-container img {
+    width: 40%;
+    }
+}
+
+@media all and (min-width: 768px) {
+  #gallery-container img {
+    width: 30%;
+    }
+}
