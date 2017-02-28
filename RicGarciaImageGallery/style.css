@@ -19,11 +19,11 @@ Header
 #MyLogo {
   display: inline-block;
   text-align: center;
-  font-size: 10px;
+  font-size: 15px;
   float: left;
   width 100%;
   margin: 35px;
-  padding: 25px 20px 5px 5px;
+  padding: 15px 20px 5px 15px;
   color: #000;
   background-color: grey;
 }
@@ -142,10 +142,12 @@ footer {
   padding: 20px 5px 5px 10px;
   width: 100%;
   background-color: #eae6e1;
+  margin-top: 30px;
 }
 
 footer a img {
 width: 05%;
+
 }
 
 
@@ -158,35 +160,80 @@ width: 05%;
       float: left;
       width: 100%;
     }
+    #gallery-container {
+      margin-left: 5px;
+      }
     #gallery-container img {
     float: left;
-    width: 100%;
+    width: 95%;
+    margin: 3px 5px 3px 5px;
+    padding: 0;
+    border-style: solid;
+    border-radius: 5px;
     }
 #MyLogo {
     display: inline-block;
     float: left;
   }
-  nav ul li a {
+nav ul li a {
+    display: inline-block;
+    float: left;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #000;
+    text-align: center;
     margin: 10px 10px 10px 10px;
+    padding: 10px 35px 10px 35px;
   }
 }
 
 @media all and (min-width: 550px) {
   header {
     width: 100%;
-  }
+    }
   nav ul {
     float: left;
-    width: 80%;
-    margin: 0;
-  }
+    width: 100%;
+    }
+  nav ul li a {
+    display: inline-block;
+    float: left;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #000;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 35px 10px 35px;
+    }
   #gallery-container img {
-    width: 40%;
+    width: 45%;
     }
 }
 
 @media all and (min-width: 768px) {
   #gallery-container img {
     width: 30%;
+    }
+  nav ul {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    width: 65%;
+    margin: 20px 5px 10px 5px;
+    padding: 10px;
+    background-color: black;
+    }
+  nav ul li a {
+    display: inline-block;
+    float: left;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #000;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 35px 10px 35px;
     }
 }
