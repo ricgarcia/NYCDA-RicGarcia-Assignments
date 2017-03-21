@@ -15,12 +15,7 @@ console.log(name + nameTwo);
 Output two of the items in sub-arrays to the console.*/
 var fighters = ["UFC Jon Jones", "Bellator MVP"];
 var drones = ["DJI Phantom", "Yunecc Typhoon H"];
-var interestRic = [fighters, drones]
-console.log(interestRic)
-
-
-var interestRic = {fighter: 'UFC Jon Jones', drones: 'DJI Phantom'}
-console.log(interestRic.fighter)
+console.log(drones[0],fighters[1])
 
 
 /* 3. Write a script that checks if a variable is less than 100.
@@ -28,22 +23,15 @@ If it is, alert the user that their variable is less than 100.
 If it is not alert the user of what the value was and that
  it was greater than 100.*/
 
-if(101>100){
-  alert("Your number is less than 100")
-  console.log("Your number is less than 100");
-} else{
-  alert("Your number is greater than 100")
- console.log("Your number is greater than 100");
-}
+ var x=12
+ if(x<100){
+   alert(x + " is less than 100")
+   console.log(x + " is less than 100");
+ } else{
+   alert(x + " is greater than 100")
+  console.log(x + " is greater than 100");
+ }
 
-
-if(101<100){
-  alert("Your number is less than 100")
-  console.log("Your number is less than 100");
-} else{
-  alert("Your number is greater than 100")
- console.log("Your number is greater than 100");
-}
 
 /* 4. Declare a function that takes a name as an argument and
 tells the user what name they've entered.*/
@@ -56,17 +44,14 @@ tells the user what name they've entered.*/
 was entered tells the user they've received a different 'prize' in an alert.
 After declaring the function, try running it with different options.
 There must be at least 3 doors.*/
-var door= {door1: 'You won vacation to Hawaii!', door2:'You won a new car!', door3: 'You won a $100,000.00!'};
-console.log(door['door1']);
 
-
-function door(door1 === 'You won vacation to Hawaii!', door2 === 'You won a new car!', door3 === 'You won a $100,000.00!'){
-  if(door1){
+function prize(door){
+  if(door === 1){
     return alert('You won vacation to Hawaii!');
-  }else if(door2){
+  }else if(door === 2){
     return alert('You won a new car!');
-  }else{
+  }else if(door === 3){
     return alert('You won a $100,000.00!');
   }
   };
-console.log(door(1));
+console.log(prize(1));
