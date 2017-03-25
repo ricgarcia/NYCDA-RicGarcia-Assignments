@@ -47,13 +47,11 @@ $(document).ready(function() {
     Cookies.set('sugar-key', 0)
     $('#sugar-count').html(0)
   })
-
-  $('#reset2').click(function() {
+  $('#reset3').click(function() {
   Cookies.set('lemon-key', 0)
   $('#lemon-count').html(0)
   })
-
-  $('#reset3').click(function() {
+  $('#reset2').click(function() {
   Cookies.set('chocolate-key', 0)
   $('#chocolate-count').html(0)
   })
