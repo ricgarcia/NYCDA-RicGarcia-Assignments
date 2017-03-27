@@ -264,6 +264,63 @@ General Styling
 }
 
 @media all and (min-width: 768px) {
+  .aboutmealplan {
+    width: 30%;
+    }
+  .subscribe {
+    width: 20%;
+    position: relative;
+    top: -20px;
+    }
+  .container {
+      display: inline-block;
+      float: right;
+      overflow: hidden;
+      background-color: #fff;
+      font-family: 'Cabin', sans-serif;
+      width: 50%;
+      text-align: center;
+      padding: 10px;
+      }
+    .container a {
+      display: inline-block;
+      width: 20%;
+      float: left;
+      font-size: 16px;
+      color: #5e9dd1;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      text-align: center;
+    }
+    .dropdown {
+        display: inline-block;
+        float: left;
+        overflow: hidden;
+        width: 50%;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 100px;
+        width: 20%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        float: none;
+        color: #5e9dd1;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+        text-align: right;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+        width: 25%;
+    }
 
 }
 
