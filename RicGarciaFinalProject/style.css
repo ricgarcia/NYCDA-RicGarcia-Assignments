@@ -253,6 +253,21 @@ General Styling
   .productdescription ul li{
     padding-top: 7px;
   }
+  footer {
+    float: left;
+    background-color: #eff4f8;
+    font-family: 'Cabin', sans-serif;
+    font-size: 10px;
+    color: grey;
+    margin: 0 auto;
+    width: 101%;
+    position: relative;
+    bottom: -20px;
+    }
+    footer p {
+      padding: 20px;
+      padding-top: 40px;
+    }
 /*////////////////////////////////////////////////////*/
 }
 
@@ -392,4 +407,144 @@ General Styling
   .productdescription ul li{
     padding-top: 7px;
   }
+}
+
+@media all and (min-width: 1024px) {
+  #body {
+    padding-bottom: 5px;
+    width: 120%;
+    margin-bottom: 5px;
+  }
+  #bluebar {
+    width: 120%;
+    height: 25px;
+    margin-top: 0;
+  }
+  #bluebar h3 {
+    position: absolute;
+    right: -690px;
+  }
+  .aboutmealplan {
+    display: inline-block;
+    float: left;
+    width: 40%;
+    margin: 10px;
+    padding: 10px 0px 10px 20px;
+    color: white;
+    font-size: 20px;
+    background-color: #5e9dd1;
+    }
+  .aboutmealplan h1 {
+    font-size: 40px;
+    text-align: left;
+    padding: 20px 0px 30px 0px;
+    color: #fff;
+  }
+  .aboutmealplan p {
+    font-size: 25px;
+    text-align: left;
+    padding: 0px 0px 30px 0px;
+    color: #fff;
+    margin: 0px;
+  }
+  .subscribe {
+    width: 20%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+  .container {
+    display: inline-block;
+    float: right;
+    overflow: hidden;
+    background-color: #fff;
+    font-family: 'Cabin', sans-serif;
+    width: 35%;
+    text-align: left;
+    padding: 5px 10px;
+    margin: 0 auto;
+  }
+  .container a {
+    display: inline-block;
+    width: 35%;
+    float: left;
+    font-size: 16px;
+    color: #5e9dd1;
+    margin: 0 auto;
+    padding: 14px 16px 14px 16px;
+    text-decoration: none;
+    text-align: left;
+  }
+  .container a:hover, .dropdown:hover .dropbtn {
+    background-color: #5e9dd1;
+    color: #fff;
+    text-align: left;
+  }
+  .dropdown {
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    width: 40%;
+    text-align: left;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    width: 16%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    float: none;
+    color: #5e9dd1;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    width: 95%;
+    text-align: left;
+  }
+  .product {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  .product img {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    padding: 20px;
+  }
+  .product button {
+    display: inline-block;
+    float: left;
+    margin-left: 25px;
+  }
+  .productdescription {
+    display: inline-block;
+    float: left;
+    margin-left: 40px;
+    padding: 0;
+    font-size: 10px;
+    color: #fff;
+  }
+  .productdescription h2 {
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 15px;
+  }
+  .productdescription ul{
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  .productdescription ul li{
+    padding-top: 7px;
+  }
+
 }
