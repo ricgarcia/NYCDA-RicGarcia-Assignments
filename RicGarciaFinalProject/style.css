@@ -11,7 +11,7 @@ General Styling
     display: inline-block;
     float: none;
     background-color: #5e9dd1;
-    width: 110%;
+    width: 115%;
     margin: 0 auto;
     padding: 0;
   }
@@ -69,6 +69,10 @@ General Styling
     background: #063e7d;
     text-align: center;
   }
+  #bluebar h3 {
+    position: relative;
+    left: -25px;
+  }
 
 /*..Navigation..*/
   header {
@@ -85,8 +89,10 @@ General Styling
     float: none;
     width: 7em;
     margin: 0px;
-    padding: 15px 5px 10px 120px;
+    padding: 15px 5px 10px 110px;
   }
+  header
+
 
 /*Body*/
   .aboutmealplan {
@@ -94,15 +100,23 @@ General Styling
     float: none;
     margin: 10px;
     padding: 10px 20px 10px 20px;
-    color: #fff;
+    color: white;
     font-size: 20px;
     text-align: center;
     background-color: #5e9dd1;
   }
   .aboutmealplan h1 {
     font-size: 30px;
-    padding: 10px 20px 30px 0px;
+    padding: 20px 20px 30px 0px;
     text-align: center;
+    color: #fff;
+  }
+  .aboutmealplan p {
+    font-size: 15px;
+    padding: 0px 20px 30px 0px;
+    text-align: center;
+    color: #fff;
+    margin: 0 15px 0 15px;
   }
   .subscribe {
     display: inline-block;
@@ -115,7 +129,8 @@ General Styling
     color: #fff;
     text-align: center;
     position: relative;
-    left: 30px;
+    left: 20px;
+    bottom: 20px;
   }
   .subscribe h2 {
     text-align: center;
@@ -142,7 +157,7 @@ General Styling
     font-family: 'Cabin', sans-serif;
     width: 100%;
     text-align: center;
-    padding-left: 10px;
+    padding-left: 0px;
   }
   .container a {
     display: inline-block;
@@ -200,48 +215,43 @@ General Styling
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  .gallery {
+  .product {
     display: inline-block;
     float: left;
-    width: 80%;
+    width: 70%;
+    padding: 10px;
+    padding-left: 25;
+  }
+  .product img {
+    display: inline-block;
+    float: left;
+    width: 100%;
     padding: 20px;
   }
-
-/*/////////////////  Modul CSS ////////////////////*/
-/* The Modal (background) */
-  .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  .product button {
+    display: inline-block;
+    float: left;
+    margin-left: 25px;
   }
-/* Modal Content */
-  .modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+  .productdescription {
+    display: inline-block;
+    float: left;
+    margin-left: 40px;
+    padding: 0;
+    font-size: 10px;
+    color: #fff;
   }
-
-/* The Close Button */
-  .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
+  .productdescription h2 {
     font-weight: bold;
+    font-size: 25px;
+    padding-top: 15px;
   }
-  .close:hover, .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+  .productdescription ul{
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  .productdescription ul li{
+    padding-top: 7px;
   }
 /*////////////////////////////////////////////////////*/
 }
@@ -333,20 +343,20 @@ General Styling
   .product button {
     display: inline-block;
     float: left;
-    margin-left: 60px;
+    margin-left: 25px;
   }
   .productdescription {
     display: inline-block;
     float: left;
-    margin-left: 20px;
+    margin-left: 40px;
     padding: 0;
     font-size: 10px;
     color: #fff;
   }
   .productdescription h2 {
     font-weight: bold;
-    font-size: 20px;
-    padding-top: 10px;
+    font-size: 25px;
+    padding-top: 15px;
   }
   .productdescription ul{
     font-size: 15px;
@@ -355,9 +365,4 @@ General Styling
   .productdescription ul li{
     padding-top: 7px;
   }
-
-}
-
-@media all and (min-width: 810px) {
-
 }
